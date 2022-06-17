@@ -1,0 +1,1 @@
+This folder contains hardware used to interface SLAS "well plate" dimensions with various, non-biology-optimized labware such as 4 mL, 20 mL vials, 125mL Nalgene or similar plastic bottles, etc.  Many folders provide Opentrons-compatible labware definitions.  A generic Inventor file for vial trays is also provided.
