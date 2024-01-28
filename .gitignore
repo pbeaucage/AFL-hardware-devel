@@ -6,3 +6,5 @@ Fluidic-Widgets/lockfile.lck
 AFL-Platform/RobotAccessories/lockfile.lck
 AFL-Platform/LoaderGen2/TravelRobotFormFactor/lockfile.lck
 AFL-Platform/LoaderGen1/lockfile.lck
+*.tmp
+~$Part Listing.xlsx
