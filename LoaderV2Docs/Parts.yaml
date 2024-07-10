@@ -1,4 +1,278 @@
 Parts
+
+FiveWayValve:
+    Name: 5-way air directional control valve
+    Suppliers:
+        McMasterCarr:
+            PartNo: 6425K18
+            Link: https://www.mcmaster.com/6425K18
+
+PushConnector14NPTto14Tube:
+    Name: 1/4" NPT x 1/4" tube push connector
+    Suppliers:
+        McMasterCarr:
+            PartNo: 5779K109
+            Link: https://www.mcmaster.com/5779K109
+
+PushConnector14NPTto18Tube:
+    Name: 1/4" NPT x 1/8" tube push connector
+    Suppliers:
+        McMasterCarr:
+            PartNo: 5779K243
+            Link: https://www.mcmaster.com/5779K243
+
+PushConnector18NPTto14Tube:
+    Name: 1/8" NPT x 1/4" tube push connector
+    Suppliers:
+        McMasterCarr:
+            PartNo: 7397N18
+            Link: https://www.mcmaster.com/7397N18
+
+AirRegulator:
+    Name: Relieving adjustable regulator
+    Specs:
+        Pressure Range: 7-125 psig
+    Suppliers:
+        McMasterCarr:
+            PartNo: 8812K52
+            Link: https://www.mcmaster.com/8812K52
+
+AirClamp:
+    Name: Air-powered hold-down fixture clamp
+    Suppliers:
+        McMasterCarr:
+            PartNo: 50185A34
+            Link: https://www.mcmaster.com/50185A34
+    # Note: This is the same as PneumaticClamp
+
+PushConnectTee14:
+    Name: Push connect tee, 1/4"
+    Suppliers:
+        McMasterCarr:
+            PartNo: 5779K34
+            Link: https://www.mcmaster.com/5779K34
+
+NylonTube14OD:
+    Name: 1/4" OD x 3/16" ID Nylon tube
+    Specs:
+        OuterDiameter: 1/4"
+        InnerDiameter: 3/16"
+        Material: Nylon
+    Suppliers:
+        McMasterCarr:
+            PartNo: 5548K45
+            Link: https://www.mcmaster.com/5548K45
+
+ETFETube18OD:
+    Name: 1/8" OD x 3/32" ID ETFE tubing
+    Specs:
+        OuterDiameter: 1/8"
+        InnerDiameter: 3/32"
+        Material: ETFE
+    Suppliers:
+        McMasterCarr:
+            PartNo: 5583K44
+            Link: https://www.mcmaster.com/5583K44
+
+GL45BottleCap:
+    Name: GL45 bottle cap
+    Suppliers:
+        spex:
+            PartNo: EW-12018-05
+    PartNumber: AFL101-006-__-0A
+    Type: 3D Printed Part
+
+PressureBottle:
+    Name: Duran Pressure Plus 1000 mL bottle
+    Specs:
+        Capacity: 1000 mL
+    Suppliers:
+        dwk:
+            PartNo: 218105403
+
+IDEXFittings:
+    Name: IDEX 1/4-28 flangeless fittings x 1/16" and 1/8"
+    # Comment: Need more specific information on part numbers and specifications
+
+PushConnectFitting1032:
+    Name: Push connect fitting, 10-32 x 1/8" tube
+    Suppliers:
+        McMasterCarr:
+            PartNo: 5779K241
+            Link: https://www.mcmaster.com/5779K241
+
+MiniatureSolenoidValve1:
+    Name: Miniature solenoid valve
+    Suppliers:
+        McMasterCarr:
+            PartNo: 5001T38
+            Link: https://www.mcmaster.com/5001T38
+
+MiniatureSolenoidValve2:
+    Name: Miniature solenoid valve
+    Suppliers:
+        McMasterCarr:
+            PartNo: 5001T36
+            Link: https://www.mcmaster.com/5001T36
+
+InlineCheckValve:
+    Name: Inline/Inlet check valve, 1/4-28
+    Specs:
+        ThreadSize: 1/4-28
+        Type: Inlet
+    Suppliers:
+        Masterflex:
+            PartNo: EW-01355-24
+
+WhisperValve:
+    Name: Whisper Valve
+    Suppliers:
+        BurkertFluidSystems:
+            PartNo: 6724A / 6724T
+
+ActuatorMicroswitchArm:
+    Name: Actuator Full-Up Microswitch Arm
+    PartNumber: AFL-101-002-01-1A
+    Type: 3D Printed Part
+
+ActuatorPistonArm:
+    Name: Actuator Piston Arm
+    PartNumber: AFL-101-002-01-2B
+    Type: 3D Printed Part
+    Revisions:
+        - 2B
+        - 2A
+
+AFLCatch:
+    Name: CatchlessCatchHolder
+    PartNumber: AFL-101-002-01-0D
+    Type: 3D Printed Part
+    Variants:
+        - Description: CatchlessCatchHolder-Braced-For1inCatch-Sidebar-Lowered
+        - PartNumber: AFL-101-002-01-0C
+          Description: CatchlessCatchHolder-Braced-For1inCatch-Sidebar
+        - PartNumber: AFL-101-002-01-0B
+          Description: CatchlessCatchHolder-Braced-For1inCatch
+        - PartNumber: AFL-101-002-01-0A
+          Description: CatchlessCatchHolder-Braced-WithValves
+    Revisions:
+        - 0D
+        - 0C
+        - 0B
+        - 0A
+
+AFLCatchNut:
+    Name: CatchHolderNut
+    PartNumber: AFL-101-002-01-3B
+    Type: 3D Printed Part
+
+AFLPiston:
+    Name: Piston
+    PartNumber: AFL-101-001-02-1C
+    Type: 3D Printed Part
+    Variants:
+        - Description: Piston badflowchannel-1-16in-thread - neutron - 65flowchan
+        - PartNumber: AFL-101-001-01-1C
+          Description: Piston badflowchannel-1-16in-thread - xray - 65flowchan
+
+AFLBottleHolder:
+    Name: Bottle Holder for RoadBot Rail
+    PartNumber: AFL-102-002-01-0B
+    Type: 3D Printed Part
+    Revisions:
+        - 0B
+        - 0A
+
+AFLElectronicsModule:
+    Name: Compute Module for RoadBot Rail
+    # Comment: No specific part number found in the listing for the module itself
+
+AFLElectronicsModuleCover:
+    Name: Compute Module Cover for RoadBot Rail
+    PartNumber: AFL-102-003-01-2C
+    Type: 3D Printed Part
+    Revisions:
+        - 2C
+        - Earlier revisions exist (unnumbered)
+
+AFLElectronicsModuleTopCover:
+    Name: Compute Module Top Cover for RoadBot Rail
+    PartNumber: AFL-102-003-01-1A
+    Type: 3D Printed Part
+
+AFLInRobotValveBox:
+    Name: Valve Holder
+    PartNumber: AFL-101-003-01-0C
+    Type: 3D Printed Part
+    Variants:
+        - Description: Valve Holder-3valve-withwirebox-fortappedholes
+        - PartNumber: AFL-101-003-01-0B
+          Description: Valve Holder-3valve-withwirebox
+        - PartNumber: AFL-101-003-01-0A
+          Description: Valve Holder-3valve
+    Revisions:
+        - 0C
+        - 0B
+        - 0A
+
+AFLInRobotValveBoxCover:
+    Name: Valve Holder-3valve-withwirebox-lidforbox
+    PartNumber: AFL-101-003-01-1A
+    Type: 3D Printed Part
+
+AFLNetworkSwitchHolder:
+    Name: Switch holder for rail
+    PartNumber: AFL-102-002-01-1A
+    Type: 3D Printed Part
+
+RobotDoorSwitchCarrier:
+    Name: Door limit switch holder
+    PartNumber: AFL-101-004-01-0A
+    Type: 3D Printed Part
+
+OT2Robot:
+    Name: OT-2 robot
+    Manufacturer: Opentrons
+    # Comment: Need more specific information on the model and specifications
+
+PiPlatesPowerPLATE24:
+    Name: Pi-Plates PowerPLATE24
+    Suppliers:
+        Pi-Plates:
+            PartNo: PowerPLATE24
+
+PiPlatesRelayPLATE:
+    Name: Pi-Plates RelayPLATE
+    Suppliers:
+        Pi-Plates:
+            PartNo: RelayPLATE
+
+RaspberryPi:
+    Name: Raspberry Pi 4B
+    Specs:
+        Model: 4B
+        RAM: 8GB (preferred) or 4GB
+    # Comment: Need more specific information on potential suppliers
+
+SDCard:
+    Name: SD card
+    Specs:
+        MinimumCapacity: 64 GB
+        Type: High endurance
+    # Comment: Need more specific information on speed class and potential suppliers
+
+TeflonPipeThreadTape:
+    Name: Teflon pipe thread tape
+    # Comment: Need more specific information on width, length, and potential suppliers
+
+ThreadLockerCompound:
+    Name: Thread locker compound
+    # Comment: Need more specific information on strength, volume, and potential suppliers
+
+UVSetGlueOrEpoxy:
+    Name: UV-set glue or epoxy
+    # Comment: Need more specific information on type, cure time, and potential suppliers
+
 256NutSS:
     Name: #2-56 nuts, hex, stainless steel
     Specs:
@@ -153,79 +427,185 @@ TSlotSingleL1in:
         McMasterCarr:
             PartNo: 47065T236
             Link: https://www.mcmaster.com/47065T236
+NeodymiumMagnet:
+  Name: Neodymium Magnet
+  Specs:
+    Magnetization: Through Thickness
+    Thickness: 3/16"
+    OuterDiameter: 3/8"
+  Suppliers:
+    McMasterCarr:
+      PartNo: 5862K111
+      Link: https://www.mcmaster.com/5862K111
 
+PistonORing:
+  Name: Chemical-Resistant Viton® Fluoroelastomer O-Ring
+  Specs:
+    Material: Viton® Fluoroelastomer
+    Width: 1/16 Fractional
+  Variants:
+    - DashNumber: "015"
+      Description: Standard, high-volume neutron version
+    - DashNumber: "013"
+      Description: For x-ray, lower-volume version
+  Suppliers:
+    McMasterCarr:
+      PartNo: 9464K21
+      Link: https://www.mcmaster.com/9464K21
 
-1 1-3 ft CAT5e patch cable
-Some 1/16" PP or ETFE tubing
+Switch:
+  Name: Netgear 8-Port Business Essentials Gigabit Ethernet Unmanaged Switch
+  Specs:
+    Ports: 8
+    Speed: Gigabit
+    Type: Unmanaged
+  Suppliers:
+    BH:
+      PartNo: NEGS308300PA
+    Netgear:
+      PartNo: GS308-300PAS
 
-3 1/4"-28 inlet check valves
-3 1/4"-28 x 1/16" tube flangeless nuts and ferrules
-2 1/8" NPT x 1/4" tube push connectors
-some 1/8" PP or ETFE tubing
-1 1/8" push connect tee fitting
-6 1/8" x 10-32 push connect fittings
-4 22" long 1" t-slot aluminum extrusion
-4 24" long 1" t-slot aluminum extrusion
-1 3 ft RJ45 patch cable or equivalent bare CAT5 type cable and termination tools
-4 4" long 1" t-slot aluminum extrusion
-1 Actuator Full-Up Microswitch Arm
-1 Actuator Piston Arm
-1 AFL Actuator Frame
-2 AFL bottle holder
-1 AFL Catch
-1 AFL catch nut
-1 AFL Electronics Module
-1 AFL Electronics Module Cover
-1 AFL Electronics Module Top Cover
-1 AFL in-robot valve box
-1 AFL in-robot valve box cover
-1 AFL network switch holder
-1 AFL piston
-1 Burkert valve connector
-1 Burkert whisper valve, type A
-1 dangling RJ45 jack
-1 DB9 female connector, panel mount
-1 DC connector, 2.1 mm
-some electrical tape
-some electrical tape or similar
-some heatshrink tubing
-3 limit switch
-3 low-flow solenoid valves
-2 neodymium magnets
-1 OT-2 robot
-1 Pi-Plates PowerPLATE24
-1 Pi-Plates RelayPLATE
-1 piston o-ring
-1 pneumatic clamp
-1 Raspberry Pi
-1 robot door switch carrier
-1 SD card (min. 64gb, high endurance)
-1 switch
-some teflon pipe thread tape
-Some thread locker compound
-some UV-set glue or epoxy
+LimitSwitch:
+  Name: Subminiature Wet-Location Snap-Acting Switch
+  Specs:
+    Type: Snap-Acting
+    Actuator: Lever
+    Environment: Wet-Location
+    Connection: Wire Leads
+  Suppliers:
+    McMasterCarr:
+      PartNo: 8085T18
+      Link: https://www.mcmaster.com/8085T18
+DB9FemaleConnector:
+  Name: Shielded DB9 Socket
+  Specs:
+    Type: Female
+    MountType: Panel mount
+    Shielding: Shielded
+  Suppliers:
+    McMasterCarr:
+      PartNo: 8048N12
+      Link: https://www.mcmaster.com/8048N12
+  Alternative for DB9socket: 5063N26 unshielded, recommended, requires soldering
 
-M4x10PanSteel:
-    Name: M4x10 Pan Head Steel
-    Description: >
-        This is lots of text
-        about some screws?
-    Specs:
-        Head: Pan
-        Length: 10 mm
-        Material: Stainless Steel
-        Pitch: 0.7
-    Suppliers:
-        RS:
-            PartNo: 528-817
-            Link: https://uk.rs-online.com/web/p/machine-screws/0528817/
-        McMasterCarr:
-            PartNo: 90116A207
-            Link: https://www.mcmaster.com/90116A207
-Screwdriver_Philips_No2:
-    Name: No. 2 Phillips screwdriver
-    Description: >
-        No2 Phillips screwdriver. This is the correct size
-        form an M4 pan head screw
-    Specs:
-        Drive Size: No. 2
+DCConnector:
+  Name: Barrel-Style DC Connector, Screw-Together Receptacle with Leads
+  Specs:
+    Size: 2.1 mm ID
+  Suppliers:
+    McMasterCarr:
+      PartNo: 8320N115
+      Link: https://www.mcmaster.com/8320N115
+
+DCAdapterCord:
+  Name: Adapter Cord, Negative
+  Specs:
+    InputVoltage: 120/240V AC
+    OutputVoltage: 24V DC
+    Current: 1.0 Amps
+    ConnectorSize: 2.1 mm End ID
+  Suppliers:
+    McMasterCarr:
+      PartNo: 70235K85
+      Link: https://www.mcmaster.com/70235K85
+
+ETFETubing18:
+  Name: Abrasion-Resistant ETFE Plastic Semi-Clear Tubing for Chemicals
+  Specs:
+    InnerDiameter: 3/32"
+    OuterDiameter: 1/8"
+    Material: ETFE
+    Color: Semi-Clear
+  Suppliers:
+    McMasterCarr:
+      PartNo: 5583K44
+      Link: https://www.mcmaster.com/5583K44
+
+PushConnectTee18:
+  Name: Push-To-Connect Tube Fitting For Air, Tee Connector
+  Specs:
+    TubeSize: 1/8" OD
+  Suppliers:
+    McMasterCarr:
+      PartNo: 5779K31
+      Link: https://www.mcmaster.com/5779K31
+
+PushConnectFitting18x1032:
+  Name: Push-To-Connect Tube Fitting For Air, Straight Adapter
+  Specs:
+    TubeSize: 1/8" OD
+    ThreadSize: 10-32 Male
+  Suppliers:
+    McMasterCarr:
+      PartNo: 5779K241
+      Link: https://www.mcmaster.com/5779K241
+
+TSlotAluminumExtrusion:
+  Name: T-Slotted Framing, Single Four Slot Rail
+  Specs:
+    Height: 1"
+    Width: 1"
+    Type: Solid
+    Color: Silver
+    SlotConfig: Four Slot
+  Variants:
+    - Length: 22"
+    - Length: 24"
+    - Length: 4"
+  Suppliers:
+    McMasterCarr:
+      PartNo: 47065T801
+      Link: https://www.mcmaster.com/47065T801
+  # Comment: This part number is for cut-to-length. Specific lengths may have different part numbers.
+
+CAT5ePatchCable:
+  Name: CAT5e patch cable
+  Specs:
+    Length: 1-3 ft
+  # Comment: Need more specific information on connectors and potential suppliers
+
+PPETFETubing116:
+  Name: 1/16" PP or ETFE tubing
+  Specs:
+    InnerDiameter: 1/16"
+    Material:
+      - PP
+      - ETFE
+  # Comment: Need more specific information on outer diameter, length, and potential suppliers
+
+FlangelessNutFerrule14_28:
+  Name: 1/4"-28 x 1/16" tube flangeless nut and ferrule
+  Specs:
+    ThreadSize: 1/4"-28
+    TubeSize: 1/16"
+  # Comment: Need more specific information on material and potential suppliers
+RJ45PatchCable:
+  Name: RJ45 patch cable
+  Specs:
+    Length: 3 ft
+  Alternatives:
+    - Name: Bare CAT5 type cable with termination tools
+      # Comment: Need more specific information on cable length and termination tool specifications
+
+AFLActuatorFrame:
+  Name: AFL Actuator Frame
+  # Comment: Need more specific information on dimensions, material, and potential suppliers
+
+BurkertValveConnector:
+  Name: Burkert valve connector
+  # Comment: Need more specific information on connector type, compatibility, and potential suppliers
+
+DanglingRJ45Jack:
+  Name: Dangling RJ45 jack
+  # Comment: Need more specific information on cable length, mounting options, and potential suppliers
+ElectricalTape:
+  Name: Electrical tape
+  # Comment: Need more specific information on width, length, color, and potential suppliers
+
+HeatshrinkTubing:
+  Name: Heatshrink tubing
+  # Comment: Need more specific information on diameter, shrink ratio, color, and potential suppliers
+
+LowFlowSolenoidValve:
+  Name: Low-flow solenoid valve
+  # Comment: Need more specific information on flow rate, voltage, and potential suppliers
