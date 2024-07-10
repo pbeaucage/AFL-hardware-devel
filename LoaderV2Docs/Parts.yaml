@@ -1,0 +1,231 @@
+Parts
+256NutSS:
+    Name: #2-56 nuts, hex, stainless steel
+    Specs:
+        Material: 18-8 Stainless Steel
+        Size: #2-56
+        Type: Hex
+    Suppliers:
+        McMasterCarr:
+            PartNo: 91841A003
+            Link: https://www.mcmaster.com/91841A003
+256Screw1inSS:
+    Name: #2-56 screws, 1" long
+    Specs:
+        Material: 18-8 Stainless Steel
+        Length: 1"
+        Size: #2-56
+    Suppliers:
+        McMasterCarr:
+            PartNo: 91772A086
+            Link: https://www.mcmaster.com/91772A086
+256Screw12inSS:
+    Name: #2-56 screws, 1/2" long
+    Specs:
+        Material: 18-8 Stainless Steel
+        Length: 1/2"
+        Size: #2-56
+    Suppliers:
+        McMasterCarr:
+            PartNo: 91772A081
+            Link: https://www.mcmaster.com/91772A081
+256Screw14inSS:
+    Name: #2-56 screws, 1/4" long
+    Specs:
+        Material: 18-8 Stainless Steel
+        Length: 1/4"
+        Size: #2-56
+    Suppliers:
+        McMasterCarr:
+            PartNo: 91772A077
+            Link: https://www.mcmaster.com/91772A077
+440NutSS:
+    Name: #4-40 nuts, hex, stainless steel
+    Specs:
+        Material: 18-8 Stainless Steel
+        Size: #4-40
+        Type: Hex
+    Suppliers:
+        McMasterCarr:
+            PartNo: 91841A005
+            Link: https://www.mcmaster.com/91841A005
+440Screw12inSS:
+    Name: #4-40 screws, 1/2" long
+    Specs:
+        Material: 18-8 Stainless Steel
+        Length: 1/2"
+        Size: #4-40
+    Suppliers:
+        McMasterCarr:
+            PartNo: 91772A110
+            Link: https://www.mcmaster.com/91772A110
+440Screw14inSS:
+    Name: #4-40 screws, 1/4" long
+    Specs:
+        Material: 18-8 Stainless Steel
+        Length: 1/4"
+        Size: #4-40
+    Suppliers:
+        McMasterCarr:
+            PartNo: 91772A106
+            Link: https://www.mcmaster.com/91772A106
+832NutSS:
+    Name: #8-32 nuts, hex, stainless steel
+    Specs:
+        Material: 18-8 Stainless Steel
+        Size: #8-32
+        Type: Hex
+    Suppliers:
+        McMasterCarr:
+            PartNo: 91841A009
+            Link: https://www.mcmaster.com/91841A009
+832Screw2inSS:
+    Name: #8-32 screws, 2" long
+    Specs:
+        Material: 18-8 Stainless Steel
+        Length: 2"
+        Size: #8-32
+    Suppliers:
+        McMasterCarr:
+            PartNo: 91772A205
+            Link: https://www.mcmaster.com/91772A205
+14WasherSS:
+    Name: 1/4" washer, stainless steel
+    Specs:
+        Material: 18-8 Stainless Steel
+        Size: 1/4"
+    Suppliers:
+        McMasterCarr:
+            PartNo: 92141A029
+            Link: https://www.mcmaster.com/92141A029
+
+1420NutSS:
+    Name: 1/4"-20 nuts, hex, stainless steel
+    Specs:
+        Material: 18-8 Stainless Steel
+        Size: 1/4"-20
+        Type: Hex
+    Suppliers:
+        McMasterCarr:
+            PartNo: 91845A029
+            Link: https://www.mcmaster.com/91845A029
+1420Screw12inSS:
+    Name: 1/4"-20 screws, 1/2" long
+    Specs:
+        Material: 18-8 Stainless Steel
+        Length: 1/2"
+        Size: 1/4"-20
+        Head Type: socket
+    Suppliers:
+        McMasterCarr:
+            PartNo: 92196A537
+            Link: https://www.mcmaster.com/92196A537
+1420Screw14inSSPan:
+    Name: 1/4"-20 screws, 1/4" long, pan head
+    Specs:
+        Material: 18-8 Stainless Steel
+        Length: 1/4"
+        Size: 1/4"-20
+        Head Type: Pan
+    Suppliers:
+        McMasterCarr:
+            PartNo: 91772A306
+            Link: https://www.mcmaster.com/91772A306
+1420Screw2inSS:
+    Name: 1/4"-20 screws, 2" long
+    Specs:
+        Material: 18-8 Stainless Steel
+        Length: 2"
+        Size: 1/4"-20
+        Head Type: socket
+    Suppliers:
+        McMasterCarr:
+            PartNo: 92196A801
+            Link: https://www.mcmaster.com/92196A801
+
+TSlotSingleL1in:
+    Name: 1" t-slot single corner brackets
+    Specs:
+        Length: 1"
+        Type: Single-height L
+        Size: 1"
+    Suppliers:
+        McMasterCarr:
+            PartNo: 47065T236
+            Link: https://www.mcmaster.com/47065T236
+
+
+1 1-3 ft CAT5e patch cable
+Some 1/16" PP or ETFE tubing
+
+3 1/4"-28 inlet check valves
+3 1/4"-28 x 1/16" tube flangeless nuts and ferrules
+2 1/8" NPT x 1/4" tube push connectors
+some 1/8" PP or ETFE tubing
+1 1/8" push connect tee fitting
+6 1/8" x 10-32 push connect fittings
+4 22" long 1" t-slot aluminum extrusion
+4 24" long 1" t-slot aluminum extrusion
+1 3 ft RJ45 patch cable or equivalent bare CAT5 type cable and termination tools
+4 4" long 1" t-slot aluminum extrusion
+1 Actuator Full-Up Microswitch Arm
+1 Actuator Piston Arm
+1 AFL Actuator Frame
+2 AFL bottle holder
+1 AFL Catch
+1 AFL catch nut
+1 AFL Electronics Module
+1 AFL Electronics Module Cover
+1 AFL Electronics Module Top Cover
+1 AFL in-robot valve box
+1 AFL in-robot valve box cover
+1 AFL network switch holder
+1 AFL piston
+1 Burkert valve connector
+1 Burkert whisper valve, type A
+1 dangling RJ45 jack
+1 DB9 female connector, panel mount
+1 DC connector, 2.1 mm
+some electrical tape
+some electrical tape or similar
+some heatshrink tubing
+3 limit switch
+3 low-flow solenoid valves
+2 neodymium magnets
+1 OT-2 robot
+1 Pi-Plates PowerPLATE24
+1 Pi-Plates RelayPLATE
+1 piston o-ring
+1 pneumatic clamp
+1 Raspberry Pi
+1 robot door switch carrier
+1 SD card (min. 64gb, high endurance)
+1 switch
+some teflon pipe thread tape
+Some thread locker compound
+some UV-set glue or epoxy
+
+M4x10PanSteel:
+    Name: M4x10 Pan Head Steel
+    Description: >
+        This is lots of text
+        about some screws?
+    Specs:
+        Head: Pan
+        Length: 10 mm
+        Material: Stainless Steel
+        Pitch: 0.7
+    Suppliers:
+        RS:
+            PartNo: 528-817
+            Link: https://uk.rs-online.com/web/p/machine-screws/0528817/
+        McMasterCarr:
+            PartNo: 90116A207
+            Link: https://www.mcmaster.com/90116A207
+Screwdriver_Philips_No2:
+    Name: No. 2 Phillips screwdriver
+    Description: >
+        No2 Phillips screwdriver. This is the correct size
+        form an M4 pan head screw
+    Specs:
+        Drive Size: No. 2
