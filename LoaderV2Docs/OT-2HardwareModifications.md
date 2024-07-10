@@ -1,5 +1,3 @@
-[M4x10 screws]:Parts.yaml#M4x10PanSteel
-[No. 2 Phillips screwdriver]:Parts.yaml#Screwdriver_Philips_No2
 # OT-2 hardware modifications
 
 {{BOM}}

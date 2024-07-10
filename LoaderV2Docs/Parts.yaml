@@ -1,5 +1,3 @@
-Parts
-
 FiveWayValve:
     Name: 5-way air directional control valve
     Suppliers:
@@ -37,13 +35,12 @@ AirRegulator:
             PartNo: 8812K52
             Link: https://www.mcmaster.com/8812K52
 
-AirClamp:
+PneumaticClamp:
     Name: Air-powered hold-down fixture clamp
     Suppliers:
         McMasterCarr:
             PartNo: 50185A34
             Link: https://www.mcmaster.com/50185A34
-    # Note: This is the same as PneumaticClamp
 
 PushConnectTee14:
     Name: Push connect tee, 1/4"
@@ -101,14 +98,14 @@ PushConnectFitting1032:
             PartNo: 5779K241
             Link: https://www.mcmaster.com/5779K241
 
-MiniatureSolenoidValve1:
+LowFlowSolenoidValve:
     Name: Miniature solenoid valve
     Suppliers:
         McMasterCarr:
             PartNo: 5001T38
             Link: https://www.mcmaster.com/5001T38
 
-MiniatureSolenoidValve2:
+LowPressureSolenoidValve:
     Name: Miniature solenoid valve
     Suppliers:
         McMasterCarr:
@@ -124,11 +121,17 @@ InlineCheckValve:
         Masterflex:
             PartNo: EW-01355-24
 
-WhisperValve:
-    Name: Whisper Valve
+WhisperValveA:
+    Name: Whisper Valve, Two Port (Type A)
     Suppliers:
         BurkertFluidSystems:
-            PartNo: 6724A / 6724T
+            PartNo: 6724A
+
+WhisperValveT:
+    Name: Whisper Valve, Three Port (Type T)
+    Suppliers:
+        BurkertFluidSystems:
+            PartNo: 6724T
 
 ActuatorMicroswitchArm:
     Name: Actuator Full-Up Microswitch Arm
@@ -606,6 +609,3 @@ HeatshrinkTubing:
   Name: Heatshrink tubing
   # Comment: Need more specific information on diameter, shrink ratio, color, and potential suppliers
 
-LowFlowSolenoidValve:
-  Name: Low-flow solenoid valve
-  # Comment: Need more specific information on flow rate, voltage, and potential suppliers

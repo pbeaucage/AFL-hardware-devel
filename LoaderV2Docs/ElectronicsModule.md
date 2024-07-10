@@ -34,7 +34,7 @@ The base of the electronics stack is a [Raspberry Pi]{Qty: 1}.
 
 * At this point it’s prudent to make any future connections needed to the Pi as getting to the connectors and SD card slot will be much more painful later!  In particular, attach a network cable ([1-3 ft CAT5e patch cable]{Qty: 1}) and any USB devices you might want, plus video if you want it.  Run these wires up and out the top hole of the enclosure.
 
-* Install the Pi into the four #2-56 tapped holes in the bottom of the electronics board using [#2-56 screws, 1/4" long]{Qty: 4}.
+* Install the Pi into the four #2-56 tapped holes in the bottom of the electronics board using [#2-56 screws, 1/4" long](Parts.yaml#256Screw14inSS){Qty: 4}.
 
 * Align the 40 pin header of the [Pi-Plates PowerPLATE24]{Qty:1} to the Raspberry Pi and press down firmly to seat.
 
@@ -52,4 +52,4 @@ The base of the electronics stack is a [Raspberry Pi]{Qty: 1}.
 
 
 
-* Attach the front and top covers using [#4-40 screws, 1/4" long]{Qty: 4}
+* Attach the front and top covers using [#4-40 screws, 1/4" long](Parts.yaml#440Screw14inSS){Qty: 4}
