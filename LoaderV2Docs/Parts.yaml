@@ -468,6 +468,17 @@ Switch:
     Netgear:
       PartNo: GS308-300PAS
 
+SwitchCarrierForRail:
+    Name: Switch carrier for rail
+    PartNumber: AFL-102-002-01-1A
+    Type: 3D Printed Part
+
+BottleCarrierForRail:
+    Name: Bottle carrier for rail
+    PartNumber: AFL-102-002-01-0A
+    Type: 3D Printed Part
+
+
 LimitSwitch:
   Name: Subminiature Wet-Location Snap-Acting Switch
   Specs:
