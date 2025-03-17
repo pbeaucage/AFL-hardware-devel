@@ -29,6 +29,8 @@ The in-robot module is the combination of actuator, piston head, catch, frame, a
     * (GRAY)   #9 FULL-DOWN LIMIT
 
     (WHITE)  SH GROUND
+
+* For the cell flow-thru valve, connect a [dangling RJ11 jack]{Qty: 1} to the appropriate ports on the valve box.  Use the center two pins of the RJ11 jack (typically the yellow and green wires, with the yellow wire going to the positive terminal).
 * Secure the connector into place using [UV-set glue or epoxy].  Place the [AFL in-robot valve box cover]{Qty:1} into place.
 
 ## Assemble the interlock harness {pagestep}
@@ -81,6 +83,57 @@ This is a separate component because there is significant risk of inductive cros
 * One tube will directly connect to the central solenoid valve in the box (the "blowout") valve.  Cut (using a [plastic tube cutter]{Qty: 1, Cat: tool}) the tube to a precise length that allows the arm to rotate without excess slack, then push it into the push connect on the valve.
 * The two rinse tubes are combined using a [1/8" push connect tee fitting](Parts.yaml#PushConnectTee18){Qty: 1} just after the valve box.  Cut two short 2-3" lengths of tubing and run them from the valve exit into the two co-linear ports of the tee.  Cut the dangling tube from the piston head to appropriate length, then attach to the perpendicular port of the tee.
 * The final port goes to the dispense controller.  Run a longer length of [1/8" PP or ETFE tubing], perhaps as long as 1 m, from the piston head.
+* Attach a dangling RJ11 jack to the electronics box 
+* Connect the wiring from this valve to the appropriate pins on the DB9 connector (pin 5 as per the pin diagram).
+
+## Connect the electrical components {pagestep}
+
+* Verify all valve connections to the DB9 connector according to the pin diagram provided earlier.
+* Connect the limit switch harness to the electronics module using a RJ45 cable.
+
+## Install the in-robot module in the OT-2 {pagestep}
+
+* Ensure the OT-2 is powered off before installing the in-robot module.
+* Carefully place the assembled in-robot module into slot 10 of the OT-2 deck. The module should fit securely with the pneumatic clamp aligned with the deck slot.
+* Route the pneumatic tubing and electrical connections through the appropriate access points in the OT-2 chassis.
+* Connect the DB9 connector to the corresponding connector on the electronics module.
+* Connect the RJ45 jack from the interlock harness to the corresponding port on the electronics module.
+* Install the door switch carrier on the OT-2 door frame using the magnets to secure it in place. Adjust the position so that the switch is properly activated when the door is closed.
+
+## Connect the pneumatic lines {pagestep}
+
+* Connect the main pneumatic line from the pneumatic module to the actuator using [1/4" nylon tubing](Parts.yaml#NylonTube14OD){Qty: 1, Unit: ft, Qty_Value: 3}.
+* Connect the dispensing pneumatic lines from the pneumatic module to the appropriate ports on the in-robot module using [1/8" ETFE tubing](Parts.yaml#ETFETube18OD){Qty: 1, Unit: ft, Qty_Value: 3}.
+* Ensure all pneumatic connections are secure and free from leaks.
+
+## Test the in-robot module {pagestep}
+
+* Power on the OT-2 and the control system.
+* Test the actuator movement by sending the appropriate control signals. Verify that:
+  * The actuator moves smoothly between the up and down positions
+  * The limit switches correctly detect the full-up and full-down positions
+  * The door interlock switch correctly prevents operation when the door is open
+* Test the pneumatic functions by activating each valve and verifying proper operation:
+  * Rinse valves (1 and 2)
+  * Blowout valve
+  * Piston vent valve
+  * Cell flow-through valve
+* Test the dispensing function by connecting a source of liquid and verifying proper dispensing through the piston.
+
+## Troubleshooting {pagestep}
+
+* If the actuator does not move:
+  * Check the pneumatic connections for leaks
+  * Verify the control signals are reaching the five-way valve
+  * Check that the door interlock and limit switches are functioning correctly
+* If the valves do not activate:
+  * Check the electrical connections to the DB9 connector
+  * Verify the control signals are reaching the valves
+  * Check for proper voltage (24V) at the valve terminals
+* If dispensing is inconsistent:
+  * Check for leaks in the fluidic path
+  * Verify the check valves are installed in the correct orientation
+  * Check for blockages in the tubing or fittings
 
 
 
