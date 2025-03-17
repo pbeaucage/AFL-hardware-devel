@@ -1,0 +1,59 @@
+﻿Part/Drawing ID,Revision,Suggested Material/Manufacturing Method,,System,Subsystem,Part Name,,Post-print finishing,,Pre-Index Filename
+,,,,,,,,,,
+AFL-101-001-01-0,C,"PTFE Machining, SLA in Rigid4k, 316SS Machining",,LoaderV2 (101),Catch Assy (001),Catch Receiver - 700uL,,If 3D printing - tap bottom hole 1/4-28 bottoming taper,,catch vertical seal-tighttol-thread.ipt
+AFL-101-001-02-0,C,"PTFE Machining, SLA in Rigid4k, 316SS Machining",,LoaderV2 (101),Catch Assy (001),Catch Receiver - 1.5mL,,If 3D printing - tap bottom hole 1/4-28 bottoming taper,,catch vertical seal-tighttol-thread - SANS.ipt
+AFL-101-001-01-1,C,"PTFE Machining, SLA in Rigid4k, 316SS Machining",,LoaderV2 (101),Catch Assy (001),Piston Head - 700uL,,"If 3D printing - tap top hole 1/4-20, tap 4 fluid holes 1/4-28 bottoming taper",,piston badflowchannel-1-16in-thread - xray - 65flowchan.ipt
+AFL-101-001-02-1,C,"PTFE Machining, SLA in Rigid4k, 316SS Machining",,LoaderV2 (101),Catch Assy (001),Piston Head - 1.5mL,,"If 3D printing - tap top hole 1/4-20, tap 4 fluid holes 1/4-28 bottoming taper",,piston badflowchannel-1-16in-thread - neutron - 65flowchan.ipt
+,,,,,,,,,,
+AFL-101-002-01-0,E,SLA in Rigid10k,,LoaderV2 (101),Catch Carrier Assy (002),Holder Frame,,Tap limit switch retention holes 2-56,,CatchlessCatchHolder-Braced-For1inCatch-Sidebar-Lowered.ipt
+AFL-101-002-01-1,A,SLA in Rigid10k,,LoaderV2 (101),Catch Carrier Assy (002),Full-up limit switch carrier,,"Tap holes to holder frame 4-40 (x2) , tap limit switch holes 2-56 (x2)",,full-up microswitch arm.ipt
+AFL-101-002-01-2,B,SLA in Rigid10k,,LoaderV2 (101),Catch Carrier Assy (002),Elevator arm,,,,Elevator arm r2.ipt
+AFL-101-002-01-3,B,PLA/ABS FDM or SLA in any material,,LoaderV2 (101),Catch Carrier Assy (002),Catch retention nut,,,,CatchHolderNut.ipt
+AFL-101-002-01-4,A,SLA in Rigid10k,,LoaderV2 (101),Catch Carrier Assy (002),Retainer nut,,Tap hole 4-40,,
+,,,,,,,,,,
+AFL-101-003-01-0,B,PLA/ABS FDM or SLA in any material,,LoaderV2 (101),Valve Box (003),Triple dispense valve carrier,,Tap side holes 1/4-20,,Valve Holder-3valve-withwirebox.ipt
+AFL-101-003-01-1,A,PLA/ABS FDM or SLA in any material,,LoaderV2 (101),Valve Box (003),Lid for dispense box,,,,Valve Holder-3valve-withwirebox-lidforbox .ipt
+,,,,,,,,,,
+AFL-101-004-01-0,A,PLA/ABS FDM or SLA in any material,,LoaderV2 (101),ExternalComponents (004),Door limit switch carrier,,Glue in two Nd magnets,,door limit switch holder.ipt
+,,,,,,,,,,
+AFL-101-005-01-0,A,PLA/ABS FDM or SLA in any material,,LoaderV2 (101),Catch Pressure Test Assy (005),Piston clamp - with threads,,,,
+AFL-101-005-01-1,A,PLA/ABS FDM or SLA in any material,,LoaderV2 (101),Catch Pressure Test Assy (005),Piston clamp - no threads,,,,
+AFL-101-005-02-0,A,PLA/ABS FDM or SLA in any material,,LoaderV2 (101),Catch Pressure Test Assy (005),Catch clamp,,,,
+,,,,,,,,,,
+AFL-101-006-01-0,A,SLA in Tough2k or other fluid safe resin,,LoaderV2 (101),Dispense Bottle Assy (006),"1/4-28 GL45 bottle cap insert, 2 port",,"Tap 2 holes 1/4-28, bottoming taper",,
+AFL-101-006-02-0,A,SLA in Tough2k or other fluid safe resin,,LoaderV2 (101),Dispense Bottle Assy (006),"1/4-28 GL45 bottle cap insert, 3 port",,"Tap 3 holes 1/4-28, bottoming taper",,
+AFL-101-006-01-1,A,SLA in Tough2k or other fluid safe resin,,LoaderV2 (101),Dispense Bottle Assy (006),"GL45 bottle cap, for insert",,,,
+AFL-101-006-02-1,A,SLA in Tough2k or other fluid safe resin,,LoaderV2 (101),Dispense Bottle Assy (006),"GL45 bottle cap, solid",,,,
+,,,,,,,,,,
+AFL-102-001-01-0,A,PLA/ABS FDM or SLA in any material,,TravelAFL (102),SensorModule (001),"Liquid sensor readout module, main body, compact",,"Tap 8 mounting holes for sensor readers 2-56, 4 cable clamp holes 4-40, 2 cover holes 4-40",,DualSensorReadout.ipt
+AFL-102-001-02-0,A,PLA/ABS FDM or SLA in any material,,TravelAFL (102),SensorModule (001),"Liquid sensor readout module, main body, full",,"Tap 8 mounting holes for sensor readers 2-56, 4 cable clamp holes 4-40, 2 cover holes 4-40, and 2 labjack mounting holes 8-32",,DualSensorReadout-WithLabJackMount.ipt
+AFL-102-001-01-1,A,PLA/ABS FDM or SLA in any material,,TravelAFL (102),SensorModule (001),Cable retention clamp for liquid sensor readout module,,,,DualSensorReadout - CableClamp.ipt
+AFL-102-001-01-2,A,PLA/ABS FDM or SLA in any material,,TravelAFL (102),SensorModule (001),Lid for liquid sensor readout module,,,,DualSensorReadout - Lid.ipt
+,,,,,,,,,,
+AFL-102-006-01-0,A,PLA/ABS FDM or SLA in any material,,TravelAFL (102),LegacySensorModule (006),"Legacy sensor module, main body",,Tap 4 cover retention holes 4-40,,
+AFL-102-006-01-1,A,PLA/ABS FDM or SLA in any material,,TravelAFL (102),LegacySensorModule (006),"Legacy sensor module, lid",,,,
+,,,,,,,,,,
+AFL-102-002-01-0,B,PLA/ABS FDM or SLA in any material,,TravelAFL (102),ExternalComponents (002),1L glass bottle carrier,,,,Bottle Holder for RoadBot Rail-r2.ipt
+AFL-102-002-01-1,A,PLA/ABS FDM or SLA in any material,,TravelAFL (102),ExternalComponents (002),Netgear switch holder,,,,switch holder for rail-r1.ipt
+,,,,,,,,,,
+AFL-102-003-01-2,C,PLA/ABS FDM or SLA in any material,,TravelAFL (102),Compute Module (003),Large face access panel,,,,Compute Module Cover for RoadBot Rail-r3.stl
+AFL-102-003-01-1,A,PLA/ABS FDM or SLA in any material,,TravelAFL (102),Compute Module (003),Cable/wire access panel,,,,Compute Module Top Cover for RoadBot Rail-r1.ipt
+AFL-102-003-01-0,C,PLA/ABS FDM or SLA in any material,,TravelAFL (102),Compute Module (003),Main enclosure,,,,RoadBot Electronics Module - with Jack - r3.iam
+AFL-102-003-01-0,A,PLA/ABS FDM or SLA in any material,,TravelAFL (102),Compute Module (003),Main enclosure,,,,Compute Module for RoadBot Rail-r2.ipt
+,,,,,,,,,,
+AFL-102-004-01-0,C,PLA/ABS FDM or SLA in any material,,TravelAFL (102),Pneumatic Module (004),Main enclosure,,,,RoadBot\ Pneumatic\ Module\ -\ with\ Jack\ -\ r3.iam
+AFL-102-004-01-1,B,PLA/ABS FDM or SLA in any material,,TravelAFL (102),Pneumatic Module (004),Connection bay cover,,,,RoadBot\ Pneumatic\ Module\ -\ Connection\ Bay\ Cover-\ r2.ipt
+,,,,,,,,,,
+AFL-102-005-01-0,C,PLA/ABS FDM or SLA in any material,,TravelAFL (102),Compute Support Module (005),Main Enclosure,,Drill/tap holes for power supply if using,,Video-UI Module for RoadBot Rail-r3.ipt
+,,,,,,,,,,
+AFL-103-001-01-1,A,PLA/ABS FDM or SLA in any material,,BenchtopAFL (103),MainAssembly (001),Electronics Bay Cover,,Press in 1/4-20 insert,,electropneumatic lid electro v2.ipt
+AFL-103-001-01-0,A,PLA/ABS FDM or SLA in any material,,BenchtopAFL (103),MainAssembly (001),Electronic/Pneumatic System Enclosure,,,,electropneumatic tray - rev2.ipt
+,,,,,,,,,,
+AFL-103-002-01-0,A,PLA/ABS FDM or SLA in any material,,BenchtopAFL (103),ExternalComponents (002),Rinse Bottle Holder,,,,Bottle Holder.ipt
+,,,,,,,,,,
+AFL-104-001-01-0,A,PLA/ABS FDM or SLA in any material,,OT2 Accessories (104),Opentrons-Upgrades (001),Pipet tip trash chute,,,,pipet tip trough.ipt
+,,,,,,,,,,
+AFL-104-002-01-0,B,PLA/ABS FDM or SLA in any material,,OT2 Accessories (104),Deckware (002),"6 x 20 mL vial tray, gen2",,test fit base into OT2 deck - critical dimension,,
+AFL-104-002-02-0,B,PLA/ABS FDM or SLA in any material,,OT2 Accessories (104),Deckware (002),"2 x 125 mL bottle tray, gen2",,test fit base into OT2 deck - critical dimension,,
+,,,,,,,,,,
+AFL-105-001-01-0,A,PLA/ABS FDM or SLA in any material,,Instrument Interfaces (105),NIST CDSAXS (001),"Capillary carrier frame, dual sensor",,,,CDSAXS-Capillary-Frame-For2Sensors.ipt

@@ -76,8 +76,30 @@ GL45BottleCap:
     Suppliers:
         spex:
             PartNo: EW-12018-05
-    PartNumber: AFL101-006-__-0A
+    PartNumber: AFL-101-006-01-1A
     Type: 3D Printed Part
+    Material: SLA in Tough2k or other fluid safe resin
+    Description: GL45 bottle cap, for insert
+
+GL45BottleCapSolid:
+    Name: GL45 bottle cap, solid
+    PartNumber: AFL-101-006-02-1A
+    Type: 3D Printed Part
+    Material: SLA in Tough2k or other fluid safe resin
+
+GL45BottleCapInsert2Port:
+    Name: 1/4-28 GL45 bottle cap insert, 2 port
+    PartNumber: AFL-101-006-01-0A
+    Type: 3D Printed Part
+    Material: SLA in Tough2k or other fluid safe resin
+    PostProcessing: Tap 2 holes 1/4-28, bottoming taper
+
+GL45BottleCapInsert3Port:
+    Name: 1/4-28 GL45 bottle cap insert, 3 port
+    PartNumber: AFL-101-006-02-0A
+    Type: 3D Printed Part
+    Material: SLA in Tough2k or other fluid safe resin
+    PostProcessing: Tap 3 holes 1/4-28, bottoming taper
 
 PressureBottle:
     Name: Duran Pressure Plus 1000 mL bottle
@@ -134,22 +156,30 @@ WhisperValveT:
             PartNo: 6724T
 
 ActuatorMicroswitchArm:
-    Name: Actuator Full-Up Microswitch Arm
+    Name: Full-up limit switch carrier
     PartNumber: AFL-101-002-01-1A
     Type: 3D Printed Part
+    Material: SLA in Rigid10k
+    PostProcessing: "Tap holes to holder frame 4-40 (x2), tap limit switch holes 2-56 (x2)"
+    OriginalFilename: full-up microswitch arm.ipt
 
 ActuatorPistonArm:
-    Name: Actuator Piston Arm
+    Name: Elevator arm
     PartNumber: AFL-101-002-01-2B
     Type: 3D Printed Part
+    Material: SLA in Rigid10k
+    OriginalFilename: Elevator arm r2.ipt
     Revisions:
         - 2B
         - 2A
 
 AFLCatch:
-    Name: CatchlessCatchHolder
-    PartNumber: AFL-101-002-01-0D
+    Name: Holder Frame
+    PartNumber: AFL-101-002-01-0E
     Type: 3D Printed Part
+    Material: SLA in Rigid10k
+    PostProcessing: Tap limit switch retention holes 2-56
+    OriginalFilename: CatchlessCatchHolder-Braced-For1inCatch-Sidebar-Lowered.ipt
     Variants:
         - Description: CatchlessCatchHolder-Braced-For1inCatch-Sidebar-Lowered
         - PartNumber: AFL-101-002-01-0C
@@ -159,79 +189,161 @@ AFLCatch:
         - PartNumber: AFL-101-002-01-0A
           Description: CatchlessCatchHolder-Braced-WithValves
     Revisions:
+        - 0E
         - 0D
         - 0C
         - 0B
         - 0A
 
 AFLCatchNut:
-    Name: CatchHolderNut
+    Name: Catch retention nut
     PartNumber: AFL-101-002-01-3B
     Type: 3D Printed Part
+    Material: PLA/ABS FDM or SLA in any material
+    OriginalFilename: CatchHolderNut.ipt
 
 AFLPiston:
     Name: Piston
     PartNumber: AFL-101-001-02-1C
     Type: 3D Printed Part
+    Material: "PTFE Machining, SLA in Rigid4k, 316SS Machining"
+    PostProcessing: "If 3D printing - tap top hole 1/4-20, tap 4 fluid holes 1/4-28 bottoming taper"
     Variants:
-        - Description: Piston badflowchannel-1-16in-thread - neutron - 65flowchan
+        - Description: Piston Head - 1.5mL
+          OriginalFilename: piston badflowchannel-1-16in-thread - neutron - 65flowchan.ipt
         - PartNumber: AFL-101-001-01-1C
-          Description: Piston badflowchannel-1-16in-thread - xray - 65flowchan
+          Description: Piston Head - 700uL
+          OriginalFilename: piston badflowchannel-1-16in-thread - xray - 65flowchan.ipt
 
 AFLBottleHolder:
-    Name: Bottle Holder for RoadBot Rail
+    Name: 1L glass bottle carrier
     PartNumber: AFL-102-002-01-0B
     Type: 3D Printed Part
+    Material: PLA/ABS FDM or SLA in any material
+    OriginalFilename: Bottle Holder for RoadBot Rail-r2.ipt
     Revisions:
         - 0B
         - 0A
 
+AFLNetgearSwitchHolder:
+    Name: Netgear switch holder
+    PartNumber: AFL-102-002-01-1A
+    Type: 3D Printed Part
+    Material: PLA/ABS FDM or SLA in any material
+    OriginalFilename: switch holder for rail-r1.ipt
+
 AFLElectronicsModule:
-    Name: Compute Module for RoadBot Rail
-    # Comment: No specific part number found in the listing for the module itself
+    Name: Main enclosure
+    PartNumber: AFL-102-003-01-0C
+    Type: 3D Printed Part
+    Material: PLA/ABS FDM or SLA in any material
+    OriginalFilename: RoadBot Electronics Module - with Jack - r3.iam
+    Revisions:
+        - 0C
+        - 0A
 
 AFLElectronicsModuleCover:
-    Name: Compute Module Cover for RoadBot Rail
+    Name: Large face access panel
     PartNumber: AFL-102-003-01-2C
     Type: 3D Printed Part
+    Material: PLA/ABS FDM or SLA in any material
+    OriginalFilename: Compute Module Cover for RoadBot Rail-r3.stl
     Revisions:
         - 2C
         - Earlier revisions exist (unnumbered)
 
 AFLElectronicsModuleTopCover:
-    Name: Compute Module Top Cover for RoadBot Rail
+    Name: Cable/wire access panel
     PartNumber: AFL-102-003-01-1A
     Type: 3D Printed Part
+    Material: PLA/ABS FDM or SLA in any material
+    OriginalFilename: Compute Module Top Cover for RoadBot Rail-r1.ipt
+
+AFLPneumaticModule:
+    Name: Main enclosure
+    PartNumber: AFL-102-004-01-0C
+    Type: 3D Printed Part
+    Material: PLA/ABS FDM or SLA in any material
+    OriginalFilename: RoadBot Pneumatic Module - with Jack - r3.iam
+    Revisions:
+        - 0C
+
+AFLPneumaticModuleCover:
+    Name: Connection bay cover
+    PartNumber: AFL-102-004-01-1B
+    Type: 3D Printed Part
+    Material: PLA/ABS FDM or SLA in any material
+    OriginalFilename: RoadBot Pneumatic Module - Connection Bay Cover- r2.ipt
+    Revisions:
+        - 1B
+
+AFLVideoUIModule:
+    Name: Main Enclosure
+    PartNumber: AFL-102-005-01-0C
+    Type: 3D Printed Part
+    Material: PLA/ABS FDM or SLA in any material
+    PostProcessing: Drill/tap holes for power supply if using
+    OriginalFilename: Video-UI Module for RoadBot Rail-r3.ipt
+    Revisions:
+        - 0C
 
 AFLInRobotValveBox:
-    Name: Valve Holder
+    Name: Triple dispense valve carrier
     PartNumber: AFL-101-003-01-0C
     Type: 3D Printed Part
+    Material: PLA/ABS FDM or SLA in any material
+    PostProcessing: Tap side holes 1/4-20
+    OriginalFilename: Valve Holder-3valve-withwirebox-fortappedholes.ipt
     Variants:
         - Description: Valve Holder-3valve-withwirebox-fortappedholes
         - PartNumber: AFL-101-003-01-0B
           Description: Valve Holder-3valve-withwirebox
         - PartNumber: AFL-101-003-01-0A
           Description: Valve Holder-3valve
-    Revisions:
-        - 0C
-        - 0B
-        - 0A
+
+AFLActuatorFrame:
+    Name: Actuator frame
+    PartNumber: AFL-101-002-01-0A
+    Type: 3D Printed Part
+    Material: SLA in Rigid10k
+    PostProcessing: Tap holes for limit switch carrier 4-40 (x2), tap holes for elevator arm 4-40 (x2)
+    OriginalFilename: actuator frame.ipt
+
+AFLVideoUIModuleCover:
+    Name: Cover
+    PartNumber: AFL-102-005-01-1A
+    Type: 3D Printed Part
+    Material: PLA/ABS FDM or SLA in any material
+    OriginalFilename: Video-UI Module Cover for RoadBot Rail-r1.ipt
+
+AFLRailClamp:
+    Name: Rail clamp
+    PartNumber: AFL-102-001-01-0A
+    Type: 3D Printed Part
+    Material: PLA/ABS FDM or SLA in any material
+    OriginalFilename: Rail Clamp for RoadBot Rail-r1.ipt
 
 AFLInRobotValveBoxCover:
-    Name: Valve Holder-3valve-withwirebox-lidforbox
+    Name: Lid for dispense box
     PartNumber: AFL-101-003-01-1A
     Type: 3D Printed Part
+    Material: PLA/ABS FDM or SLA in any material
+    OriginalFilename: Valve Holder-3valve-withwirebox-lidforbox.ipt
 
 AFLNetworkSwitchHolder:
-    Name: Switch holder for rail
+    Name: Netgear switch holder
     PartNumber: AFL-102-002-01-1A
     Type: 3D Printed Part
+    Material: PLA/ABS FDM or SLA in any material
+    OriginalFilename: switch holder for rail-r1.ipt
 
 RobotDoorSwitchCarrier:
-    Name: Door limit switch holder
+    Name: Door limit switch carrier
     PartNumber: AFL-101-004-01-0A
     Type: 3D Printed Part
+    Material: PLA/ABS FDM or SLA in any material
+    PostProcessing: Glue in two Nd magnets
+    OriginalFilename: door limit switch holder.ipt
 
 OT2Robot:
     Name: OT-2 robot
@@ -586,6 +698,45 @@ PPETFETubing116:
       - PP
       - ETFE
   # Comment: Need more specific information on outer diameter, length, and potential suppliers
+
+AFLCatchReceiver700uL:
+  Name: Catch Receiver - 700uL
+  PartNumber: AFL-101-001-01-0C
+  Type: 3D Printed Part
+  Material: "PTFE Machining, SLA in Rigid4k, 316SS Machining"
+  PostProcessing: "If 3D printing - tap bottom hole 1/4-28 bottoming taper"
+  OriginalFilename: catch vertical seal-tighttol-thread.ipt
+
+AFLCatchReceiver1_5mL:
+  Name: Catch Receiver - 1.5mL
+  PartNumber: AFL-101-001-02-0C
+  Type: 3D Printed Part
+  Material: "PTFE Machining, SLA in Rigid4k, 316SS Machining"
+  PostProcessing: "If 3D printing - tap bottom hole 1/4-28 bottoming taper"
+  OriginalFilename: catch vertical seal-tighttol-thread - SANS.ipt
+
+AFLValveBox:
+  Name: Triple dispense valve carrier
+  PartNumber: AFL-101-003-01-0B
+  Type: 3D Printed Part
+  Material: PLA/ABS FDM or SLA in any material
+  PostProcessing: Tap side holes 1/4-20
+  OriginalFilename: Valve Holder-3valve-withwirebox.ipt
+
+AFLValveBoxLid:
+  Name: Lid for dispense box
+  PartNumber: AFL-101-003-01-1A
+  Type: 3D Printed Part
+  Material: PLA/ABS FDM or SLA in any material
+  OriginalFilename: Valve Holder-3valve-withwirebox-lidforbox .ipt
+
+AFLDoorLimitSwitchCarrier:
+  Name: Door limit switch carrier
+  PartNumber: AFL-101-004-01-0A
+  Type: 3D Printed Part
+  Material: PLA/ABS FDM or SLA in any material
+  PostProcessing: Glue in two Nd magnets
+  OriginalFilename: door limit switch holder.ipt
 
 FlangelessNutFerrule14_28:
   Name: 1/4"-28 x 1/16" tube flangeless nut and ferrule
